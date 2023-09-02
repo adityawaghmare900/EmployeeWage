@@ -2,19 +2,39 @@
 {
     internal class Program
     {
+        int Is_Part_Time = 1;
+        int Is_Full_Time = 2;
+        int Emp_Rate_Per_Hour = 20;
+        int Num_Of_Working_Days = 2;
+
         static void Main(string[] args)
         {
-            Random random = new Random();
-            int Emp = random.Next(0, 2);
-            int Is_Full_Time = 0;
-            if (Emp == Is_Full_Time)
+            int empHrs = 0;
+            int empWage = 0;
+            int totalEmpWage = 0;
+
+            for (int day = 0; Num_Of_Working_Days; int++)
             {
-                Console.WriteLine("Employee Is Present");
+                Random random = new Random();
+                int Emp = random.Next(0, 3);
+                switch (Emp)
+                {
+                    case Is_Part_Time:
+                        empHrs = 4;
+                        break;
+
+                    case Is_Full_Time:
+                        empHrs = 8;
+                        break;
+
+                    default:
+                        empHrs = 0;
+                }
+                empWage = empHrs * Emp_Rate_Per_Hour;
+                totalEmpWage += empWage;
+                Console.WriteLine("Employee Wage : " + empWage);
             }
-            else
-            {
-                Console.WriteLine("Employee Is not Present");
-            }
+            Console.WriteLine("total Emp Wage : " + totalEmpWage);
         }
+
     }
-}
