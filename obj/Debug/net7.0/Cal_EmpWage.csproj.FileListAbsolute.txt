@@ -1,0 +1,14 @@
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\bin\Debug\net7.0\Cal_EmpWage.exe
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\bin\Debug\net7.0\Cal_EmpWage.deps.json
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\bin\Debug\net7.0\Cal_EmpWage.runtimeconfig.json
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\bin\Debug\net7.0\Cal_EmpWage.dll
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\bin\Debug\net7.0\Cal_EmpWage.pdb
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\obj\Debug\net7.0\Cal_EmpWage.GeneratedMSBuildEditorConfig.editorconfig
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\obj\Debug\net7.0\Cal_EmpWage.AssemblyInfoInputs.cache
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\obj\Debug\net7.0\Cal_EmpWage.AssemblyInfo.cs
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\obj\Debug\net7.0\Cal_EmpWage.csproj.CoreCompileInputs.cache
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\obj\Debug\net7.0\Cal_EmpWage.dll
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\obj\Debug\net7.0\refint\Cal_EmpWage.dll
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\obj\Debug\net7.0\Cal_EmpWage.pdb
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\obj\Debug\net7.0\Cal_EmpWage.genruntimeconfig.cache
+F:\program\Cal_EmpWage\Cal_EmpWage\Cal_EmpWage\obj\Debug\net7.0\ref\Cal_EmpWage.dll
