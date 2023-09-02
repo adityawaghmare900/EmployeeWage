@@ -6,15 +6,17 @@
         int Is_Full_Time = 2;
         int Emp_Rate_Per_Hour = 20;
         int Num_Of_Working_Days = 2;
+        int max_Hrs_In_Month = 10;
 
         static void Main(string[] args)
         {
             int empHrs = 0;
-            int empWage = 0;
-            int totalEmpWage = 0;
+            int totEmpHrs = 0;
+            int totalworkingDays = 0;
 
-            for (int day = 0; Num_Of_Working_Days; int++)
+            while(totalEmpHrs<=Max_Hrs_In_Month && totalWorkingDays < Num_Of_Working_Days)
             {
+                totalworkingDays++;
                 Random random = new Random();
                 int Emp = random.Next(0, 3);
                 switch (Emp)
@@ -30,10 +32,10 @@
                     default:
                         empHrs = 0;
                 }
-                empWage = empHrs * Emp_Rate_Per_Hour;
-                totalEmpWage += empWage;
-                Console.WriteLine("Employee Wage : " + empWage);
+                totalEmpWage += empHrs;
+                Console.WriteLine("Days : " + totalworkingDays + "Employee Hrs : " + empHrs);
             }
+            int totalEmpWage = totalEmpHrs * Emp_Rate_Per_Hour;
             Console.WriteLine("total Emp Wage : " + totalEmpWage);
         }
 
